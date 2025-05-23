@@ -1,0 +1,7 @@
+let pinky = "Cérebro, o que você quer fazer esta noite?";
+console.log(pinky);
+
+
+let cerebro = "A mesma coisa que fazemos todas as noites, Pinky!";
+console.log(cerebro);
+console.log("Tentar conquistar o mundo!");
