@@ -8,13 +8,13 @@
 <body>
     <h1>Você é estrangeiro?</h1>
     Digite o país em que você nasceu: <input type="text" name="text" id="text">
-    <input type="button" value="Verificar" onclick="conferir()">
+    <input type="button" value="verificar" onclick="conferir()">
     <div id="res"></div>
     <script>
         function conferir(){
-        let pais = document.querySelector('input#text')
+        let pais = document.querySelector('input#text').value.toLowerCase()
         let res = document.querySelector('div#res')
-        if (pais == 'Brasil') {
+        if (pais == 'brasil') {
             res.innerHTML = 'Você é brasileiro!!'
         } else {
             res.innerHTML = 'Você é estrangeiro'
