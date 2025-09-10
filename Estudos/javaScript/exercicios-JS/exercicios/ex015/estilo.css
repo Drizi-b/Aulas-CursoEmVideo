@@ -21,6 +21,8 @@ footer {
     font-size: small;
 }
 img {
+    display: block;
+    margin: auto;
     align-content: center;
     width: 150px;
     height: 150px;
