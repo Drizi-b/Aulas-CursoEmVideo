@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: serif;
+            background-color: dimgray;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: auto;
+            text-align: center;
+            border: 2px groove black;
+        }
+        nav {
+            
+        }
+        nav > a {
+            text-decoration: none;
+            margin: 10px;
+        }
+        main {
+            background-color: rgb(249, 207, 190);
+            margin: 5px 1px ;
+            padding: 5px;
+            text-align: justify;
+            border: 2px groove black;
+        }
+        article > aside {
+            text-align: right;
+        }        
+        footer {
+            border: 2px solid darkslateblue;
+            margin: 4px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header> <!--cabeçalho-->
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Esportes</a>
+            <a href="">Política</a>
+            <a href="">Tecnologia</a>
+            <a href="">Finaças</a>
+            <a href="">Turismo</a>
+        </nav>
+    </header>
+    <main> <!--tema principal-->  
+        <section id="assuntos">
+            <p>  </p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus repellendus, neque aperiam atque hic, nulla cum similique molestias blanditiis possimus harum accusamus nobis iusto? Veniam vitae illum nemo consectetur vero?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolor beatae earum sit at quidem fugit voluptatum iusto non repellendus provident doloremque cum officiis eaque architecto doloribus, totam necessitatibus veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, et quasi provident, magni aperiam dignissimos earum maiores accusantium necessitatibus pariatur enim inventore modi voluptatum ipsam labore! Quia repellendus alias dignissimos.</p>
+                <aside>
+                    <p>Artigo escrito por Jose da Silva</p>
+                </aside> 
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer> <!--rodapé-->
+        Desenvolvido por AdriBalon
+    </footer>
+</body>
+</html>
