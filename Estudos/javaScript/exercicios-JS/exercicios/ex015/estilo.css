@@ -12,7 +12,7 @@ section {
     padding: 15px;
     width: 500px;
     margin: auto;
-    box-shadow: 3px3px 10px rgba(0, 0, 0, 0.611);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.611);
 }
 footer {
     color: white;
@@ -22,4 +22,7 @@ footer {
 }
 img {
     align-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
 }
