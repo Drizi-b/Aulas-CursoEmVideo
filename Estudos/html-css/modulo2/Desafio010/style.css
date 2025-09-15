@@ -1,0 +1,23 @@
+@font-face {
+            font-family: 'Droid';
+            src: url('./fontes/idroid.otf') format('opentype');
+
+}
+.container {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(105, 173, 105);
+
+}
+.titulo {
+    padding: 3px 140px;
+}
+h1 {
+    font-family: 'Oswald';
+    font-weight: lighter;
+}
+.menu {
+    text-align: left;
+    text-decoration: none;
+}
